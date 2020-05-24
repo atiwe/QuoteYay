@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author Hampus Hansson -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mint"
+    android:orientation="vertical"
+    tools:context=".HighscoreFragment"
+    android:focusable="true" >
+
+    <TextView
+        android:id="@+id/textHighscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/frog"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/highscore"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        app:fontFamily="@font/baloo" />
+
+    <TextView
+        android:id="@+id/textTopTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/frog_light"
+        android:gravity="center"
+        android:text="@string/top_ten"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:fontFamily="@font/baloo" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:padding="20dp"
+        app:columnCount="3"
+        app:rowCount="10">
+
+        <TextView
+            android:id="@+id/textNumberOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/highscore_number_one"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textPlayerOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo"
+            app:layout_columnWeight="15" />
+
+        <TextView
+            android:id="@+id/textScoreOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textNumberTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/highscore_number_two"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textPlayerTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo"
+            app:layout_columnWeight="15" />
+
+        <TextView
+            android:id="@+id/textScoreTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textNumberThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/highscore_number_three"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textPlayerThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo"
+            app:layout_columnWeight="15" />
+
+        <TextView
+            android:id="@+id/textScoreThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textNumberFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/highscore_number_four"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textPlayerFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo"
+            app:layout_columnWeight="15" />
+
+        <TextView
+            android:id="@+id/textScoreFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textNumberFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/highscore_number_five"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textPlayerFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo"
+            app:layout_columnWeight="15" />
+
+        <TextView
+            android:id="@+id/textScoreFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textNumberSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/highscore_number_six"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textPlayerSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo"
+            app:layout_columnWeight="15" />
+
+        <TextView
+            android:id="@+id/textScoreSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textNumberSeven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/highscore_number_seven"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textPlayerSeven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo"
+            app:layout_columnWeight="15" />
+
+        <TextView
+            android:id="@+id/textScoreSeven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textNumberEight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/highscore_number_eight"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textPlayerEight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo"
+            app:layout_columnWeight="15" />
+
+        <TextView
+            android:id="@+id/textScoreEight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textNumberNine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/highscore_number_nine"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textPlayerNine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo"
+            app:layout_columnWeight="15" />
+
+        <TextView
+            android:id="@+id/textScoreNine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textNumberTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/highscore_number_ten"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+
+        <TextView
+            android:id="@+id/textPlayerTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo"
+            app:layout_columnWeight="15" />
+
+        <TextView
+            android:id="@+id/textScoreTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:fontFamily="@font/baloo" />
+    </android.support.v7.widget.GridLayout>
+
+</LinearLayout>

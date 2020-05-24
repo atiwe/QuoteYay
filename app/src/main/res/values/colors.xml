@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mint">#82E0AA</color>
+    <color name="frog">#28b463</color>
+    <color name="frog_light">#48d483</color>
+    <color name="purple"> #AF7AC5 </color>
+    <color name="orange"> #F39C12 </color>
+    <color name="sunshine"> #F7DC6F</color>
+    <color name="darkPurple">#6c3483</color>
+</resources>

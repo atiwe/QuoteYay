@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quote YEY</string>
+    <string name="citat">Ett citat som är ett citat som är ett citat som är ett citat</string>
+    <string name="new_game">New Game</string>
+    <string name="set_name">Set Name</string>
+    <string name="continue_game">Continue Game</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="highscore">Highscore</string>
+    <string name="highscore_number_one">1.</string>
+    <string name="highscore_number_two">2.</string>
+    <string name="highscore_number_three">3.</string>
+    <string name="highscore_number_four">4.</string>
+    <string name="highscore_number_five">5.</string>
+    <string name="highscore_number_six">6.</string>
+    <string name="highscore_number_seven">7.</string>
+    <string name="highscore_number_eight">8.</string>
+    <string name="highscore_number_nine">9.</string>
+    <string name="highscore_number_ten">10.</string>
+    <string name="top_ten">Top 10</string>
+    <string name="save_name">Save name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
